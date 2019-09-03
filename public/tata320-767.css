@@ -1,0 +1,262 @@
+@media (min-width:320px) and (max-width:767px){
+/*Text*/
+ul{
+  width:100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0;
+}
+li{
+  display: inline-block;
+  margin:0 auto;
+  text-align: center;
+}
+a{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+a:hover{
+  color:#0ff;
+}
+h1,h2,h3,ul{
+  size:150%;
+  text-align: center;
+  font-family: Trebuchet MS;
+  text-align: left;
+}
+ul,li{
+  font-family: Trebuchet MS;
+}
+/*Header content*/
+header{
+  margin:0 auto;
+  width:100%;
+  height: 150px;
+  text-align: center;
+}
+.nHeader{
+  margin:0 auto;
+  width:100%;
+  height: 150px;
+  text-align: center;
+}
+#logoDiv{
+  height:100%;
+  background-color: #008ae6;
+}
+#logo{
+  display: inline-block;
+  position: absolute;
+  right:75px;
+  width:200px;
+  height:75px;
+}
+#contactDiv{
+  width:90%;
+  margin: 0 auto;
+}
+#contact_img{
+  width:100%;
+  height:380px;
+}
+/*menu*/
+#menu {
+  width:100%;
+}
+#menuText{
+ position: absolute;
+ top:53px;
+ right:150px;
+ font-size:150%;
+}
+#meuIcon{
+  position: absolute;
+  top:115px;
+}
+#menuTextIcon{
+ position: absolute;
+ top:68px;
+ right:130px;
+}
+#menuTextIcon:hover{
+ position: absolute;
+ top:68px;
+ right:130px;
+ transform: rotate(90deg);
+}
+#dropdown{
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 340px;
+  top:130px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+.menu-content:hover{
+  color:#1a8cff;
+}
+#menu:hover #dropdown{
+  display: block;
+}
+/*slideshow*/
+#auto-slider-container{
+  position: absolute;
+  width:80%;
+}
+.auto-slider img{
+  display:block;
+}
+.auto-slider{
+  position: absolute;
+  outline:3px solid black;
+  width:100%;
+  height:230px;
+  top:-75px;
+  right:-30px;
+  overflow-x:hidden;
+}
+.auto-slider__content{
+  position: absolute;
+  list-style:none;
+  display:flex;
+  animation: slide 43s ease-in-out infinite;
+}
+.slide_img{
+  width:288px;
+  height:230px;
+}
+@keyframes slide{
+  10%{
+    transform:translateX(0);
+  }
+  15%, 25%{
+    transform:translateX(-288px);
+  }
+  30%, 40%{
+    transform:translateX(-576px);
+  }
+  45%, 55%{
+    transform:translateX(-864px);
+  }
+  60%, 70%{
+    transform:translateX(-1152px);
+  }
+  75%, 85%{
+    transform:translateX(-1440px);
+  }
+  90%, 100%{
+    transform:translateX(0);
+  }
+}
+/*Body*/
+body{
+  margin:0 auto;
+}
+#brands{
+  float:left;
+  clear:both;
+  width:100%;
+  height:500px;
+}
+.no-move{
+  text-align: center;
+}
+.bannerText{
+  color:#008ae6;
+  font-size: 160%;
+}
+.sPush{
+  position: absolute;
+  top:700px;
+}
+#map{
+  display: block;
+  margin:0 auto;
+  border:1px solid black;
+  width:90%;
+  height:450px;
+}
+/*Installation body*/
+.bigACPic{
+  width:100%;
+  height:50%;
+}
+.shrink img{
+  transition: transform .25s ease;
+}
+.shrink 
+#sideAC:hover,
+#angleAC:hover,
+#whiteAC:hover{
+  transform: scale(.95);
+}
+/*Service body*/
+#serviceMap{
+  display: block;
+  margin:0 auto;
+  border:1px solid black;
+  width:100%;
+  height:450px;
+}
+/*Contact body*/
+#contactPolish{
+  width:90%;
+  height:30%;
+}
+#phoneNumber{
+  width:8em;
+  font-family: Trebuchet MS;
+}
+#phoneButton{
+  font-family: Trebuchet MS;
+  width:4em;
+}
+/*Footer*/
+footer::after{
+  margin:0 auto;
+  content:'';
+  display: table;
+  clear:both;
+  width:100%;
+}
+footer{
+  margin:0 auto;
+  background-color: #008ae6;
+  width:100%;
+}
+#fDiv{
+  margin:0 auto;
+}
+.bottomFooter{
+  position: absolute;
+  top:47.85em;
+}
+.footerLi{
+  text-align: center;
+  display: block;
+  font-size:150%;
+}
+.smallBottomFooter{
+  position: absolute;
+  top:2025px;
+}
+
+/*Hide*/
+#headerUl,
+.headerLi,
+#tI,
+#tS,
+#tC,
+#tP,
+.iL,
+.iS,
+.iC,
+.iP
+{
+  display:none;
+}
+
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" sizes="56x56" href="https://d1ujqdpfgkvqfi.cloudfront.net/favicon-generator/htdocs/favicons/2019-08-10/074cec5ae111331f3e4e5d4a65057b74.ico.png">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+	<link rel="stylesheet" href="/tata320-767.css">
+	<link rel="stylesheet" href="/tata768-1024.css">
+	<link rel="stylesheet" href="/tata1024-1500.css">
+	<link rel="stylesheet" href="/tata1501.css">
+	<title>Contact</title>
+</head>
+
+<header class="nHeader">
+<!--Logo img-->
+<div id="logoDiv">
+	<a href="/"><img id="logo" src=https://i.imgur.com/7zbDOVQ.jpg></a>
+</div>
+<!--Desktop menu-->
+	<nav>
+		<ul id="headerUl">
+			<li><a href="Installation" class="headerLi">Installation</a></li>
+			<li><a href="contact" class="headerLi">Contact</a></li>
+			<li><a href="service" class="headerLi">Service</a></li>
+			<li><a href="payment" class="headerLi">Payment</a></li>
+		</ul>
+	</nav>
+<!--Tablet/iPad menu--> 
+	<div>
+		<a href="Installation" class="iI" id="tI">Installation</a>
+		<a href="contact" class="iC" id="tC">Contact</a>
+		<a href="service" class="iS" id="tS">Service</a>
+		<a href="payment" class="iP" id="tP">Payment</a>
+	</div>
+<!--Mobile menu-->
+	<div id="menu">
+		<i id="menuIcon" class="fas fa-ellipsis-h"></i></i>
+		<div id="dropdown">
+			<h1 class="menu-content">Installation</h1>
+			<hr>
+			<h1 class="menu-content">Contact</h1>
+			<hr>
+			<h1 class="menu-content">Service</h1>
+			<hr>
+			<h1 class="menu-content">Payment</h1>
+		</div>
+	</div>
+	<h3 id="menuText">Menu</h3><p id="menuTextIcon">⯈</p>
+</header>
+
+<body class="nPush">
+	<h1 class="no-move">Contact Information</h1>
+	<hr>
+	<div class="bContainer desktop">
+	<h1 class="bannerText">Contact Us!</h1>
+	<h3>Want an appointment? Shoot us a Gmail at <a id="gmail" href="mailto:APProInc@gamil.com">APProInc@gmail.com</a> or call us <input id="phoneNumber" value="(630)-440-5889" type="text"><button id="phoneButton" onclick="phoneNumber()">Copy</button>. We usually respond to inbox messages within 2-5 hours of receiving and to gmails within a few days. Calls tend to be responded to quicker than Gmails.
+
+	<h1 class="bannerText">Mowimy po polsku!</h1>
+	<h3>W razie potrzeby będziemy mogli komunikować się w języku polskim dla łatwiejszego zrozumienia.</h3>
+	<img id="contactPolish" src="https://i.imgur.com/weqIkzG.jpg">
+	</div>	
+</body>
+
+<footer>
+	<div>
+		<h1 class="no-move">Contact us</h1>
+	<hr>
+		<div id="fDiv">
+		<ul>
+			<li class="footerLi"><b>Gmail:</b>APProInc@gmail.com</li>
+			<li class="footerLi"><b>Phone:</b>(630)-540-8677</li>
+			<li class="footerLi"><b>Liscence Number</b>: #0397545379400</li>
+		</ul>
+	</div>
+</div>
+</footer>
+</div>
+
+<script>
+	function phoneNumber(){
+	var pN = document.getElementById("phoneNumber");
+	pN.select();
+	document.execCommand("copy");
+}
+</script>
+
+</html>

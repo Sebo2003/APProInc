@@ -1,0 +1,242 @@
+@media (min-width:1501px){
+/*Text*/
+ul{
+  width:100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0;
+  font-family: Trebuchet MS;
+}
+li{
+  display: inline-block;
+  margin:0 auto;
+  text-align: center;
+  font-family: Trebuchet MS;
+}
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size:80%;
+}
+a:hover{
+  color:#0ff;
+}
+h1,h2,h3{
+  font-size:160%;
+  text-align: center;
+  text-align: left;
+  font-family: Trebuchet MS;
+}
+nav{
+  position: absolute;
+  width:40%;
+  height:40px;
+  background-color: #008ae6;;
+  right:.1em;
+  top:80px;
+}
+/*Header*/
+header{
+  margin:0 auto;
+  width:100%;
+  height: 600px;
+}
+.nHeader{
+  margin:0 auto;
+  width:100%;
+  height:650px;
+  position: absolute;
+  top:-200px;
+}
+#logoDiv{
+  height:20%;
+  background-color: #008ae6;
+}
+.nLogoDiv{
+  height:85%;
+  background-color: #008ae6;
+}
+#logo{
+  display: inline-block;
+  margin-left: 650px;
+  width:300px;
+  height:130px;
+}
+#contactDiv{
+  position: absolute;
+  right: 0.8em;
+  width:750px;
+  height:420px;
+}
+/*menu*/
+#headerUl{
+  list-style-type: none;
+  width: 200px;
+  display: inline;
+}
+.headerLi{
+ text-transform: capitalize;
+ font-size:150%;
+ padding:7px;
+ color:#e6f9ff;
+}
+/*slideshow*/
+.auto-slider img{
+  display:block;
+}
+.auto-slider{
+  position: relative;
+  left:2em;
+  top:1em;
+  outline:3px solid black;
+  width:850px;
+  height:410px;
+  overflow-x:hidden;
+}
+
+.auto-slider__content{
+  position: absolute;
+  list-style:none;
+  display:flex;
+  animation: slide 43s ease-in-out infinite;
+}
+@keyframes slide{
+  10%{
+    transform:translateX(0);
+  }
+  15%, 25%{
+    transform:translateX(-850px);
+  }
+  30%, 40%{
+    transform:translateX(-1700px);
+  }
+  45%, 55%{
+    transform:translateX(-2550px);
+  }
+  60%, 70%{
+    transform:translateX(-3400px);
+  }
+  75%, 85%{
+    transform:translateX(-4250px);
+  }
+  90%, 100%{
+    transform:translateX(0);
+  } 
+}
+/*Body*/
+body{
+  margin:0 auto;
+}
+.desktop{
+  margin:0 auto;
+  width:83%;
+}
+.nPush{
+  position: absolute;
+  top:200px;
+}
+#eye-text{
+  text-align: right;
+}
+.no-move{
+  text-align: center;
+}
+.bannerText{
+  color:#008ae6;
+  font-size: 160%;
+}
+#brands{
+  float:left;
+  clear:both;
+  width:100%;
+  height:350px;
+}
+#map{
+  display: block;
+  margin:0 auto;
+  border:1px solid black;
+  width:650px;
+  height:450px;
+}
+/*Installation body*/
+.bigACPic{
+  width:521px;
+  height:410px;
+}
+.shrink img{
+  transition: transform .25s ease;
+}
+.shrink 
+#sideAC:hover,
+#angleAC:hover,
+#whiteAC:hover{
+  transform: scale(.95);
+}
+/*Service body*/
+#serviceMap{
+  display: block;
+  margin:0 auto;
+  border:1px solid black;
+  width:100%;
+  height:520px;
+}
+/*Contact body*/
+#contactPolish{
+  height:390px;
+}
+#phoneNumber{
+  width:8em;
+  font-family: Trebuchet MS;
+}
+#phoneButton{
+  font-family: Trebuchet MS;
+  width:4em;
+}
+/*Footer*/
+footer{
+  margin:0 auto;
+  background-color: #008ae6;
+  width:100%;
+}
+footer::after{
+  margin:0 auto;
+  content:'';
+  display: table;
+  clear:both;
+  width:100%;
+}
+.nFooter{
+  position: absolute;
+  top:580px;
+}
+.bottomFooter{
+  position: absolute;
+  top:47.85em;
+}
+#fDiv{
+  margin:0 auto;
+}
+.footerLi{
+  text-align: center;
+  display: block;
+  font-size:150%;
+}
+/*Hides*/
+#menu,
+#dropdown,
+.menu-content,
+#menuText,
+#menuTextIcon,
+#menuIcon,
+#tI,
+#tS,
+#tC,
+#tP,
+.iL,
+.iS,
+.iC,
+.iP{
+  display:none;
+}
+
+}
